@@ -12,9 +12,7 @@ void loop() {
     ctr1++; // cada 0.1seg incrementamos ctr1
     printCounters(ctr1, ctr2);
   }
-
-  delay(2000);
-  ctr2++; // cada 2seg incrementamos ctr2
+  ctr2++;
   ctr1 -= ctr2;
   printCounters(ctr1, ctr2);
 }
